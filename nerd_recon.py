@@ -60,7 +60,7 @@ def analyze_results(folder):
             except: continue
                 
     if not found:
-        print(f"{WHITE}[*] No obvious critical keywords found. Ready for manual review.")
+        print(f"{END}[*] No obvious critical keywords found. Ready for manual review.")
     print(f"{PINK}{BOLD}" + "█"*63 + f"{END}\n")
 
 def main():
