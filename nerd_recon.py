@@ -1,3 +1,10 @@
+# ---------------------------------------------------------
+# Tool: Nerd Recon v2.0
+# Author: [Ilana Belinson :)]
+# Purpose: Web Reconnaissance & Vulnerability Analysis
+# Created for: Cybersecurity Studies 2026
+# ---------------------------------------------------------
+
 import os
 import sys
 import time
