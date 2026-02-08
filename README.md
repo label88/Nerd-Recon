@@ -1,20 +1,28 @@
-# NerdRecon Suite v3.0
+_   _               _   ____                          
+   | \ | | ___ _ __  __| | |  _ \                        
+   |  \| |/ _ \ '__|/ _` | | |_) / _ \/ __/ _ \| '_ \     
+   | |\  |  __/ |  | (_| | |  _ <  __/ (_| (_) | | | |     
+   |_| \_|\___|_|   \__,_| |_| \_\___|\___\___/|_| |_|     
+                                             (o-o) v3.0
+High-Speed Recon Suite (v3.0) 🚀
 
-A high-speed, stealthy reconnaissance tool designed for automated target mapping and vulnerability discovery. 
+🔥 Key Features
+Multi-Tool Integration: Powered by WhatWeb, Nmap, and ffuf.
+Stealth First: Real-browser User-Agent and -Pn scanning to bypass WAFs.
+Cross-Platform: Native support for Windows, macOS, and Linux.
+Smart Analysis: Automatic detection of sensitive files (.env, backups, etc.).
 
-## Features
-- **Funnel Strategy:** Moves from lightweight fingerprinting to deep content discovery.
-- **Stealth Mode:** Uses passive version mapping (via `vulners`) to avoid triggering AV/EDR.
-- **Noise Reduction:** Automatically separates technical logs from actionable reports.
-- **Smart Fuzzing:** Discovers hidden backups (`.bak`, `.zip`) and sensitive directories.
 
-## Real-World Findings (Test Run)
-During a scan on `testphp.vulnweb.com`, the tool successfully identified:
-- **Server:** Nginx 1.19.0 (Potential CVE-2021-23017).
-- **Sensitive Files:** Exposed `index.bak` and `index.zip` archive.
-- **Development Leaks:** CVS metadata directories (`/CVS/Entries`).
-- **Hidden Paths:** `/admin` and `/secured` entry points.
+🛠️ Quick Setup
+Ensure you have the following in your PATH:
+Python 3.x, Nmap, FFUF, WhatWeb.
 
-## Usage
-```bash
-python3 nerd_recon.py
+🚀 Usage
+Bash
+python3 recon_suite.py
+Just enter your target and let the funnel strategy do the rest. Results are neatly saved in a generated recon_ folder.
+
+Note: For authorized security testing only.
+
+
+                                             
